@@ -1,0 +1,68 @@
+.add-student-form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+label {
+    margin-bottom: 10px;
+    
+}
+  
+label input {
+    margin-left: 5%;
+}
+label select {
+    margin-left: 5%;
+}
+.pws{
+    margin-left: 7%;
+}
+  
+  
+input,
+select {
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+  
+.buttonn {
+    background-color: #0f172a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.buttonn:hover {
+    background-color: #0f172a;
+}
+  
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+  
+@media (min-width: 768px) {
+    .add-student-form {
+      max-width: 400px;
+    }
+}
+  
